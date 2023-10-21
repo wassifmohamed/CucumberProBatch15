@@ -19,6 +19,7 @@ public class CommonMethods {
     public static void openBrowserAndLaunchApplication() {
         ConfigReader.readProperties();
 
+        System.out.println("");
 
         String browserType=ConfigReader.getPropertyValue("browserType");
         switch (browserType)
